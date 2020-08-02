@@ -1,8 +1,9 @@
 import React from 'react'
+import { Player } from './styles'
 
 function Page(){
     return(
-        <div></div>
+        <Player/>
     )
 } 
 export default Page;

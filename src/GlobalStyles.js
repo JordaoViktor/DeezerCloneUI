@@ -11,6 +11,7 @@ export default createGlobalStyle`
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         border:none;
+        overflow:hidden;
         ul,li{
             list-style:none;
         }

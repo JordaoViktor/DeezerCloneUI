@@ -4,7 +4,7 @@ export const SearchBox = styled.div`
     grid-area:search-box;
     background-color:#121216;
     width:auto;
-    border: 2px solid #32323d;
+    border: 1px solid #32323d;
     border-top:none;
     display:flex;
     justify-content:space-between;

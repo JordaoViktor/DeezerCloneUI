@@ -11,7 +11,6 @@ export const SideMenu = styled.aside`
         height:100%;
         font-size:20px;
         font-weight:bold;
-        
     }
     .main--menu--container{
         display:flex;
@@ -36,9 +35,6 @@ export const SideMenu = styled.aside`
             content:icon;
             color:#ef5466;
             fill:#ef5466;
-        }
-        span{
-            align-items:
         }
     }
     svg{
