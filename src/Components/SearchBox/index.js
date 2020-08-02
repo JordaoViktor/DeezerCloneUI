@@ -6,7 +6,7 @@ function Page(){
     return(
         <SearchBox>
             <ButtonContainer>
-                <FaSearch size="1.5em" color="#32323d"/>
+                <FaSearch size="1.25em" color="#32323d"/>
                 <input type="text" placeholder="Buscar"/>
             </ButtonContainer>
             <UserNavContainer>
