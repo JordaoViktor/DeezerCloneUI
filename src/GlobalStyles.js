@@ -11,10 +11,23 @@ export default createGlobalStyle`
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         border:none;
-        overflow:hidden;
+        
         ul,li{
             list-style:none;
         }
+        ::-webkit-scrollbar {
+        background-color:#191922;
+        width:10px;
+        border: 1px solid #52525d;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color:#92929d;
+        border-radius:5px;
+        border:2px solid #52525d;
+    }
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
     }
     html,body,#root{
         width:100%;

@@ -10,7 +10,7 @@ function Page(){
                 <input type="text" placeholder="Buscar"/>
             </ButtonContainer>
             <UserNavContainer>
-                <FaBell size="1.5em"  color="#32323d"/>
+                <FaBell size="1.5em"  color="#92929D"/>
                 <div className="user--menu"></div>
             </UserNavContainer>
         </SearchBox>

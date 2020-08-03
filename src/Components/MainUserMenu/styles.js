@@ -4,8 +4,14 @@ import styled from 'styled-components';
 export const SideMenu = styled.aside`
     grid-area: side-menu;
     background-color:#191922;
-    width:flex;
-    height:75vh;
+    width:250px;
+    height:80vh;
+    margin-top:75px;
+    border:1px solid #32323d ;
+    border-top:none;
+    position:fixed;
+    z-index:3;
+    
     .main--menu{
         color:#f5f5f5;
         height:100%;

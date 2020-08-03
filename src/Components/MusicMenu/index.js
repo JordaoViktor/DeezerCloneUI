@@ -4,7 +4,9 @@ import { MainMenu } from './styles'
 
 function Page() {
     return(
-        <MainMenu/>
+        <MainMenu>
+            
+        </MainMenu>
     )
 }
 
