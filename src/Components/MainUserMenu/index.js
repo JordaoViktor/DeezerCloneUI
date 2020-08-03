@@ -4,11 +4,6 @@ import { FaMusic, FaMicrophoneAlt, FaThLarge, FaRegHeart, FaHeart } from 'react-
 
 function Page() {
     
-    const [hovering, setHovering ] = useState(false)
-    const handleHovering = (e) =>{
-        return (e.target !== true) ?  setHovering(<FaRegHeart size="1.5em"/>) : setHovering(<FaHeart size="1.5em"/>)
-        console.log(hovering)
-    }
     
     
     return(
@@ -18,7 +13,7 @@ function Page() {
                     <li><FaMusic size="1.25em"/><span>Música</span></li>
                     <li><FaMicrophoneAlt size="1.25em"/><span>Shows</span></li>
                     <li><FaThLarge size="1.25em"/><span>Expolar</span></li>
-                    <li onMouseEnter={(e) => handleHovering(e)} value={hovering}> <FaRegHeart size="1.5em"/><span>Favoritos</span></li>
+                    <li><FaRegHeart size="1.5em"/><span>Favoritos</span></li>
                 </ul>
                 <div className="side--menu--info">
                     <ul className="side--menu--container">
