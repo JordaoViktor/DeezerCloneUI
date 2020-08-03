@@ -6,14 +6,12 @@ export const Player = styled.section`
     border: 1px solid #32323d;
     position:fixed;
     width:100%;
-    height:95px;
+    height:100px;
     margin-top:88vh;
     z-index:4;
     overflow:hidden;
     display:flex;
     align-items:center;
-    
-
     .player{
         color:white;
         margin-left:30px;
